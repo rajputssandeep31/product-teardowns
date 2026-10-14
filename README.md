@@ -2,35 +2,37 @@
 
 By Sandeep Singh Rajput
 
-A collection of practical product decisions built from public user feedback and verified product documentation. Each teardown follows one user job, checks what already exists, compares alternatives and proposes a test.
+Practical product analysis: what a product helps people do, what works well, where an important tension appears and how I would decide what to improve.
 
-## Start here
+## Apple Music
 
-**[YouTube Premium: finding a downloaded video](YOUTUBE-DOWNLOADS-TEARDOWN.md)**
+**[Read the Apple Music teardown](APPLE-MUSIC-TEARDOWN.md)**
 
-Some public discussions describe difficulty finding saved videos; others describe successful offline use. This teardown investigates access to the existing Downloads view, including a reported library-filter issue. It explains what I would verify before changing the product, the tradeoff with other library tasks and how I would measure the proposed improvement.
+The case examines discovery and a specific listening job: changing the direction of an ongoing session when the music suits your general taste but misses the moment. It considers existing discovery, mood, preference and Playlist Playground controls before proposing an optional temporary session direction.
 
-The reported mobile state has not been reproduced here. Public reviews are qualitative research signals, and the recommendations are proposals rather than completed experiments.
+The full analysis includes product context, user jobs, a journey map, feature strengths, public feedback and counterexamples, prioritization, proposed behavior, alternatives, business constraints, an evaluation plan and my overall decision.
 
-## Download the editable workbook
+This is an independent analysis based on public evidence. The proposal and experiment have not been run.
 
-**[Download the Word template](https://github.com/rajputssandeep31/product-teardowns/raw/refs/heads/main/product-teardown-template.docx)**
+## Download the editable template
 
-The eight-page workbook includes guidance, editable fields and a connected YouTube example. Use it for another product by replacing the example with evidence from your own research.
+**[Download the Word workbook](https://github.com/rajputssandeep31/product-teardowns/raw/refs/heads/main/product-teardown-template.docx)**
 
 **[Use the Markdown version](PRODUCT-TEARDOWN-TEMPLATE.md)**
 
-The worksheets cover:
+Edition 2.0 follows the same reasoning through ten worksheets. Each contains guidance, editable fields and a connected Apple Music example. Replace the worked example with your own evidence.
 
-1. The user job and scope.
-2. Evidence and counterexamples.
-3. Existing product controls.
-4. Competing explanations for the friction.
-5. Constraints and alternative approaches.
-6. One scoped intervention.
-7. An experiment, primary outcome and guardrails.
-8. A decision brief and public post.
+1. Product context and the decision.
+2. Users and jobs.
+3. Journey and existing features.
+4. Evidence and counterexamples.
+5. Tension and prioritization.
+6. A scoped proposal and its behavior.
+7. Alternatives and business constraints.
+8. Metrics and an experiment.
+9. Execution and validation.
+10. An overall take and public post.
 
-Begin with the task a user is trying to complete. Record both complaints and working paths, verify existing controls, and distinguish what you observed from what you would test.
+The collection focuses on products from Microsoft, Google, Salesforce, Raya, Adobe and Apple.
 
 Last updated: 14 October 2026.

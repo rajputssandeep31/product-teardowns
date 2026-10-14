@@ -1,245 +1,285 @@
 # Product teardown template
 
-Maintained by Sandeep Singh Rajput. Edition 1.0. 14 October 2026.
+Maintained by Sandeep Singh Rajput. Edition 2.0. 14 October 2026.
 
-An editable workbook with a connected YouTube example. Worked recommendations and tests are proposals, not executed research outcomes.
+An editable workbook with a connected Apple Music example. Worked recommendations and tests are proposals, not executed research outcomes.
 
-## 1 Scope and user job
+## 1 Product context and decision
 
-Use this workbook to turn public feedback into one product decision worth testing. Complete a specific journey before recommending a feature. The output is a decision brief supported by an evidence record, a scoped intervention and an experiment. Replace the worked examples with your own research.
+Use this workbook to explain how a product creates value, where one important journey becomes difficult, and what you would do next as its PM. Complete the prompts in order. The Apple Music example connects the sections; replace it with evidence about your chosen product.
 
-Choose a narrow job, a defined user group and a product state. A complaint about downloads could concern finding a saved video, playing it, renewing its availability or exporting a file. Those are different problems. Record what you know about plan, country, device and app version; leave missing information unknown.
+Start with the product purpose and a decision worth making. Explain what works before recommending a change. Separate documented facts, reported experiences and your proposed reasoning. Keep unsupported business outcomes and company motives out of the conclusion.
 
-Worked example: A YouTube Premium viewer has completed a manual download and wants to find it for offline playback. This case examines navigation on mobile. Desktop file export, failed downloads and Premium Lite are outside the first test. The public reports do not establish every reviewer's plan, country or app build.
+Worked example: Apple Music helps listeners play known music and find something new. I would examine whether a listener can redirect an ongoing discovery session when the music fits their general taste but misses the current moment. The proposed control has not been built or tested.
 
-### Product and journey
+### Product and value
 
-Name the product, release or observation date and the start and end of the journey.
-
-[Write your response here]
-
-### User job and stakes
-
-Describe the situation, desired outcome and consequence of failure in the user's words.
+Name the product, user value, surface, plan and observation date.
 
 [Write your response here]
 
-### Included and excluded segments
+### What deserves preservation
 
-Specify plan, country, device, app version and relevant state. Write unknown where evidence is missing.
+Describe a supported strength or successful journey. What could your proposal disrupt?
 
 [Write your response here]
 
 ### Decision to make
 
-What single decision will this teardown inform? Name the assumption that could change it.
+What choice should a PM make after reading this teardown? What evidence could change it?
 
 [Write your response here]
 
-## 2 Evidence and counterexamples
+## 2 Users and jobs
 
-Read multiple independent discussions and current official documentation. Store the link and date with each observation. Separate a reported experience from a verified product rule and from your own interpretation. Repeated complaints identify a research question; they do not establish prevalence, churn or a cause.
+Define users through the situation and outcome that matter to this decision. A persona is useful when it changes the design choice. Do not invent age, occupation or purchasing power from an anonymous review.
 
-Include people who succeed, not only people who struggle. Look for differences in journey, active filters, connectivity, membership and device. Do not collect reviewer identities or personal details. When a comment supplies a workaround, treat it as something to reproduce rather than as proof of a universal solution.
+Keep the first research group specific. Record device, app version, country, plan and current product state. Unknown metadata stays unknown. Describe the trigger, desired outcome and consequence of failure.
 
-Worked example: Two mobile discussions describe trouble locating Downloads. Replies describe finding it through a library filter or offline entry. A separate discussion includes a positive travel use case and a desktop expectation mismatch. Together these suggest distinct issues, not a single conclusion that offline playback is broken.
+Worked example: A listener enjoys several genres but wants one direction during the current session. Their job is to change what plays next without confusing a temporary intention with general dislike.
 
-| Record | What to capture |
+| Situation | Job | Success |
+| --- | --- | --- |
+| Background listening | Start suitable music with little effort | Listening continues with little intervention |
+| Active discovery | Find unfamiliar music worth exploring | Finds something worth saving |
+| Change of session intention | Redirect the current listening session | Music fits the moment and the choice duration is understood |
+
+### Priority group and reason
+
+Which situation informs the first test, and why?
+
+[Write your response here]
+
+### Inclusions and exclusions
+
+Record known plan, country, device, version and state; name separate cases.
+
+[Write your response here]
+
+## 3 Journey and existing features
+
+Map the journey from the original trigger to completed value. Mark each step as documented, directly observed, reported or hypothetical. Do not present a proposed walkthrough as a test you performed.
+
+Check current equivalents before proposing a feature. Include working paths and relevant eligibility. The opportunity may be how existing controls fit together, rather than a missing capability.
+
+Worked example: Discovery Station, genre and mood playlists, preference feedback and Playlist Playground already provide different routes. Compare them before adding another way to direct music.
+
+| Stage | Question to investigate |
 | --- | --- |
-| Official behavior | Document link; checked date; displayed update date or not shown; exact scope. |
-| Reported friction | Discussion link; date as displayed; journey; known segment; paraphrased observation. |
-| Counterexample | Successful journey or contradictory report; conditions that differ. |
-| Interpretation | Hypothesis; alternative explanation; what observation would disprove it. |
+| Choose a listening route | Does the listener understand the station or playlist they selected? |
+| Listen and respond | Does the music fit the situation? What caused a skip? |
+| Recover | Can existing routes express the current intention? |
+| Continue and return | Did recovery help, and does the user understand what carries forward? |
 
-### Evidence record
+### Journey record
 
-Create one record per independent source. Record missing metadata and contradictory evidence.
-
-[Write your response here]
-
-### What is established and what remains open
-
-List the supported facts, qualitative signals and unresolved claims separately.
+For each stage write the user action, current control, evidence type and success condition.
 
 [Write your response here]
 
-## 3 Existing experience and controls
+### Existing control and eligibility
 
-Verify what the product already offers before proposing a change. Trace the job from entry to completion. Distinguish a missing control from an existing control that is hidden, misunderstood or failing. A help article establishes documented behavior; it does not reproduce a particular app build.
+List current equivalents and how device, region or plan changes their availability.
 
-Reproduce the reported journey on the relevant version and state where access is available. Use public documentation when direct testing is unavailable, and mark the gap. Do not label a proposed walkthrough as an observed test. Avoid advising destructive workarounds such as reinstalling an app unless their consequences are verified.
+[Write your response here]
 
-Worked example: YouTube's Android help describes a Downloaded filter and Downloads playlist. Smart Downloads already exists too. The case therefore investigates access to those controls; it does not recommend adding offline downloads or automatic downloading.
+## 4 Evidence and counterexamples
 
-| Journey step | Evidence to inspect |
+Read independent discussions and current primary documentation. Record what the evidence supports and what it cannot establish. Review complaints alongside successful experiences; their differences can reveal the actual problem.
+
+A review is a research signal, not a representative sample or proof of internal behavior. Preserve the source, displayed date and checked date. Avoid reviewer identities and personal details. Store conflicting date metadata in research notes rather than inventing precise chronology.
+
+Worked example: Some listeners describe valuable discoveries, while others report unsuitable direction or poor relevance. These signals require different explanations. They do not establish that Apple Music recommendations fail generally.
+
+| Evidence type | Record |
 | --- | --- |
-| Complete a manual download | Completion state and account eligibility. |
-| Open the library | Entry route and currently selected filter. |
-| Find the saved video | Visibility of existing Downloads controls and list. |
-| Start playback offline | Successful start versus a separate availability or playback error. |
+| Official behavior | URL; checked date; revision date if shown; platform and feature scope |
+| Reported experience | Independent discussion; date as displayed; journey; known segment; paraphrase |
+| Counterexample | Working path or contradictory experience; differing conditions |
+| Interpretation | Hypothesis, alternative and evidence that would disprove it |
 
-### Reproduction record
+### Evidence ledger
 
-Record device, build, plan, country, connection and filter state; actions; observed result; expected result.
-
-[Write your response here]
-
-### Existing control check
-
-Does the proposed capability already exist? Is the actual gap placement, wording, consistency or function?
+Create one record per independent source. Keep missing information visible.
 
 [Write your response here]
 
-## 4 Diagnosis and priority
+### Supported conclusion
 
-Choose a root-cause hypothesis that explains the evidence and leads to a testable intervention. Do not turn every complaint into a feature request. Use competing explanations to identify what to investigate first.
+State the narrow finding supported by the records and the strongest counterexample.
 
-Prioritize by consequence, how directly the hypothesis fits the evidence, and the work needed to test it. Do not invent numerical reach or confidence scores from a few reviews. State which segment has evidence and which segment does not. A serious functional failure may need repair before a discovery experiment.
+[Write your response here]
 
-Worked example: The initial hypothesis is that a library state makes an existing Downloads entry hard to find. A missing entry on an affected build could instead be a regression. Expired content or incorrect membership could explain a playback failure but would not explain every navigation report.
+## 5 Tension and prioritization
 
-| Hypothesis | How to distinguish it |
+Choose a consequential tension within the user journey. Explain why this decision matters more than the other candidates. A product can work well overall and still require improvement in a specific situation.
+
+Separate misunderstanding of controls, temporary intent mismatch and persistent poor relevance. Each needs different research and intervention. Use consequence, evidence fit and investigation effort to prioritize; do not manufacture numerical reach from reviews.
+
+Worked example: A listener may enjoy electronic music but want rock now. Before adding a session control, check whether the person understands existing routes and can complete that task with them.
+
+| Candidate | First decision |
 | --- | --- |
-| Navigation or filter state | Ask users to locate a confirmed download; inspect the visible controls and active filter. |
-| UI regression | Compare the documented route with the same state on affected and unaffected builds. |
-| Availability or playback failure | The saved video is found but fails to play; inspect the stated error separately. |
+| Control misunderstanding | Test existing-route understanding and visibility |
+| Temporary intent mismatch | Compare recovery in the current session with existing alternatives |
+| Persistent poor relevance | Investigate recommendation quality separately |
 
-### Selected hypothesis
+### Selected tension and priority
 
-State the specific failure, evidence supporting it and the most credible alternative.
-
-[Write your response here]
-
-### Disconfirming observation
-
-What finding would make you abandon this diagnosis? What evidence must be collected next?
+Name the conflict, affected situation and reason to investigate first.
 
 [Write your response here]
 
-### Priority and reason
+### Alternative explanation
 
-Explain why this problem deserves attention before the other candidates.
+What else explains the evidence? Which observation would rule out your preferred diagnosis?
 
 [Write your response here]
 
-## 5 Constraints and alternatives
+### Evidence gate
 
-A useful teardown accounts for the customer, the business and the people who operate the product. Separate documented constraints from assumed company priorities. Compare realistic alternatives across the same criteria.
+What must be true before moving to a prototype?
 
-Record access or content rules, screen space, development effort, service reliability and affected journeys where relevant. Do not attribute motives to a company from user complaints. For each option, explain the mechanism, benefit to test, downside and condition that would make you reject it.
+[Write your response here]
 
-Worked example: Download eligibility and availability rules remain in place. Library space also serves playlists and other saved content. Whether more visibility displaces a valuable action is a design tradeoff to test, not a claim about YouTube's internal strategy.
+## 6 Scoped proposal and behavior
+
+Define one intervention that addresses the selected tension. Explain the mechanism, trigger, user action, resulting behavior and recovery path. A feature name alone is not a product requirement.
+
+Write acceptance conditions that can be observed. Include existing equivalents, queue or state rules, cancellation, unavailable results and accessibility. Validate feasibility before estimating engineering effort.
+
+Worked proposal: For this session lets a listener choose a temporary direction while Discovery Station is playing. A visible label and Clear action show its duration. It must not record the action as Suggest Less or remove a Favorite. Ordinary listening-history settings still apply.
+
+### Trigger and user action
+
+Who can use it, where, and when? What deliberate action begins the change?
+
+[Write your response here]
+
+### State and acceptance conditions
+
+What changes immediately, what ends the state, and what proves correct behavior?
+
+[Write your response here]
+
+### Failure and recovery
+
+What happens when the desired result cannot be provided? Describe a truthful fallback.
+
+[Write your response here]
+
+### Scope and exclusions
+
+Which existing features remain the baseline? Which adjacent problems will this change not solve?
+
+[Write your response here]
+
+## 7 Alternatives and business constraints
+
+Compare realistic ways to solve the same user job. Account for the business and the people who operate the product. Documented constraints and your assumptions should remain distinguishable.
+
+Discuss user effort, product complexity, eligibility, ongoing operations and the journeys that could be harmed. Do not infer revenue effects, recommendation architecture or company motives from public complaints.
+
+Worked example: A session control could reduce recovery effort but adds interface and recommendation work. The existing playlist route may solve the task without building anything new. Both need evaluation.
 
 | Option | Reason to consider | Tradeoff |
 | --- | --- | --- |
-| Preserve existing Downloads access across filters | Addresses a reproduced state problem. | Uses space or changes filter behavior. |
-| Add contextual guidance | May help when controls exist but users miss them. | Adds interruption; cannot fix a missing control. |
-| Redesign the entire library | Could simplify several journeys. | Broad effort and regression risk before the cause is known. |
+| Improve existing-route guidance | Small intervention if misunderstanding is the cause | May require switching away mid-session |
+| Use Playlist Playground where eligible | Existing route for a stated intention | Playlist creation and regional eligibility |
+| Temporary station direction | Recovers inside the current session | Extra controls, queue state and feasibility work |
+
+### Chosen and deferred alternatives
+
+Compare the options on the same task and state why one earns a test.
+
+[Write your response here]
 
 ### Stakeholders and constraints
 
-Name the user job, business requirement, operating owner and evidence for each constraint.
+Name the affected user journey, owner and evidence or assumption for each constraint.
 
 [Write your response here]
 
-### Alternative chosen and alternative deferred
+## 8 Metrics and experiment
 
-Explain the tradeoff using the observed problem rather than a generic feature ranking.
+Measure completion of the user job, not adoption of your new button. Define the primary outcome, diagnostics and guardrails before inspecting results. Proposed measures are not observed company outcomes.
 
-[Write your response here]
+Compare against useful existing controls, not an artificially weak baseline. Set the observation window and minimum useful effect from baseline work. Separate usability evidence from production outcomes. Record eligibility and counterbalance order where participants see both versions.
 
-## 6 One scoped intervention
+Worked proposal: Compare current recovery routes with a session-control prototype. The primary outcome is reaching music the participant confirms fits the stated task, unaided, within a fixed window. Include failed attempts.
 
-Describe the smallest change that tests your diagnosis without adding unrelated features. Write the trigger, user action, expected product behavior and failure or recovery path. Specify what remains unchanged so reviewers can assess the scope.
-
-Reproduce the failure before deciding implementation. If a documented control is missing, repair that state before experimenting with explanatory copy. If the control is present but missed, test visibility or guidance against the current experience, including any guidance already present.
-
-Worked proposal: If an active Playlists filter makes Downloads inaccessible on an affected build, preserve a visible route to the existing Downloads view. Keep the existing download and content-availability rules. This is a conditional proposal; the reported state has not been reproduced in this analysis.
-
-### Eligibility and trigger
-
-Which users and product state receive the change? Which users remain excluded?
-
-[Write your response here]
-
-### Behavior and scope
-
-What can the user do, where, and what happens next? State one acceptance condition.
-
-[Write your response here]
-
-### Existing feature and failure check
-
-Describe the current equivalent or nearest control. What happens if no eligible download exists?
-
-[Write your response here]
-
-### Dependencies and owner
-
-Name the responsible roles and prerequisites. What evidence permits a prototype or repair to begin?
-
-[Write your response here]
-
-## 7 Experiment and measures
-
-Make success observable at the end of the user job. Choose a primary outcome, diagnostic measures and guardrails before inspecting results. Every target needs a rationale. Leave targets unset when there is no baseline or agreed acceptable effect.
-
-Start with a task-based comparison of the current experience and a prototype. For a later production test, define eligibility, random assignment, duration and the sample needed with the analytics owner. Do not claim that a small usability exercise estimates population conversion or retention.
-
-Worked proposal: Ask eligible mobile Premium users with a verified manual download to locate it and start playback under controlled offline conditions. Compare the current navigation with the scoped prototype. Separate inability to find the video from a failure after pressing play.
-
-| Measure | Definition |
+| Measure | Definition or purpose |
 | --- | --- |
-| Primary task success | Eligible assigned participants who find the video and start playback without help / all eligible assigned participants. |
-| Diagnostic | Time from task instruction to playback; navigation backtracks; help requests. |
-| Guardrails | Playlist task success; playback errors after the video is found; accidental changes to saved content. |
+| Primary outcome | Successful eligible assigned participants / all eligible assigned participants |
+| Diagnostics | Time, recovery actions, skips and selected route; inspect reasons rather than infer dislike |
+| Guardrails | Duration understanding; accidental persistent feedback; playback or queue disruption; satisfaction of non-users |
 
-### Assignment and observation window
+### Assignment and measurement
 
-Define comparison, eligibility, device and country segments, task order and timing. Include failed attempts in the denominator.
-
-[Write your response here]
-
-### Targets and decision rule
-
-Set the minimum useful effect and acceptable guardrail change with a rationale. Record inconclusive results without calling them success.
+Define eligibility, comparator, observation window, unit and treatment of failures.
 
 [Write your response here]
 
-### Test status
+### Decision rule and test status
 
-Planned or completed? If completed, record sample, exclusions, uncertainty and actual results. Never fill example results as observed data.
+Record baseline, justified targets and rollback criteria. State planned or completed; report inconclusive results honestly.
 
 [Write your response here]
 
-## 8 Decision brief and reusable post
+## 9 Execution and validation
 
-Bring the reasoning together in one decision brief. A reviewer should be able to understand the problem, follow the evidence and see why the proposed change addresses it. Update the brief when new evidence changes the diagnosis.
+Turn the selected proposal into work a team can evaluate. Plan the next evidence-producing step, dependencies and release gates. Do not disguise unknown feasibility as a delivery date.
 
-For a public post, explain the user situation before naming the fix. Include an existing product control, a specific proposal, an alternative and its tradeoff, then the proposed test. Link to the substantive analysis and template. Do not imply employment at the company, internal access or completed experiments.
+Separate concept validation, engineering feasibility and a limited production experiment. Identify owners by role. Preserve a rollback path and make unintended effects observable before exposure grows.
 
-Worked conclusion: Investigate mobile download findability first. Verify the reported library and filter state, then test consistent access to the existing Downloads view if the issue is reproduced. Positive offline-use reports keep us from calling the entire feature broken. The evidence does not establish how many users are affected.
+Worked plan: First compare existing routes and the prototype. Then validate temporary queue behavior and event separation with recommendation and client owners. Proceed to a limited experiment only if duration is understood and playback remains reliable.
+
+| Gate | Evidence required | Owner role |
+| --- | --- | --- |
+| Concept | Useful recovery and correct duration understanding | PM, design and research |
+| Feasibility | Supported queue behavior; no persistent negative-feedback event | Client and recommendation engineering |
+| Limited test | Instrumentation, assignment, guardrails and rollback ready | PM, analytics and engineering |
+
+### Next deliverable and owner
+
+Specify the artifact, responsible role, dependency and completion condition.
+
+[Write your response here]
+
+### Acceptance and rollback
+
+Which checks must pass? What result stops or reverses the change?
+
+[Write your response here]
+
+### Unresolved dependencies
+
+Record unknowns, how they will be resolved and who owns each investigation.
+
+[Write your response here]
+
+## 10 Overall take and public post
+
+State what you would preserve, what you would investigate and the decision you would make next. The conclusion should follow from the product context, evidence and tradeoffs, rather than a list of PM frameworks.
+
+For a post, introduce the product and a supported strength, explain one tension, connect it to a proposal, show the alternative and test, then link the substantive asset. Use original wording. Do not invent firsthand experience, employer endorsement or completed results.
+
+Worked conclusion: Compare existing listening routes before building. If they solve the job with similar effort, improve their visibility or leave the journey alone. Test temporary station direction only if the in-session recovery need remains and users understand its scope.
 
 ### One page decision
 
-User job; narrow friction; evidence and limits; chosen intervention; alternative; constraints; primary outcome and guardrails.
+Product value, user job, strength, tension, evidence, choice, tradeoff, proposed outcome and next gate.
 
 [Write your response here]
 
-### Proceed change or stop
+### Exact LinkedIn draft
 
-Who decides, on what evidence, by when? What would lead to a repair, a usability test, more research or no change?
-
-[Write your response here]
-
-### Public post draft
-
-Write the exact text. Identify hypothetical reasoning and include a working public artifact link.
+Write the final wording in a natural voice and link the published analysis and verified download.
 
 [Write your response here]
 
-### Release check
+### Review before publication
 
-Record current control verification, source dates, privacy check, artifact download test and individual approval of the final post.
+Record factual verification, confidentiality check, artifact download test and individual approval of the exact final post.
 
 [Write your response here]
